@@ -171,7 +171,7 @@ Com a carga alta, o grupo passou de 2 para **4 instâncias "Lab Instance"**: dua
 
 Com o comando `aws ec2 create-image`, criei a `Web Server AMI CLI`. No console, as duas AMIs aparecem como **Available**:
 
-![AMIs no console](./imagens/09-ami-cli-console.png)
+![AMIs no console](./imagens/9-ami-cli-console.png)
 
 E a consulta pela CLI (`describe-images`) confirma o estado `available`, a descrição "AMI criada pela AWS CLI", o volume raiz `gp2` de 8 GiB e o snapshot associado:
 
@@ -212,7 +212,7 @@ E a consulta pela CLI (`describe-images`) confirma o estado `available`, a descr
 
 ### 👩‍💻 Autora
 
-**Luciana R B de Assis **
+**Luciana R B de Assis**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucianarbassis)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alra-code)
